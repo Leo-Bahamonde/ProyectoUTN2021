@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--head-->
+<%- include ('partials/head.html')%>
+<body>
+    <!--menú de navegación-->
+    <%- include ('partials/navigation.html')%>
+
+    <!-- Contactos -->
+    <br><br><br><br><br>
+    <div>
+        <div class="container mt-3 p-4">
+        
+          <div>
+              <h2>Formulario de contacto</h2>
+           </div>
+    
+    
+           <div class="mt-4">
+           <form>
+    
+          <div class="row">
+           
+             <div class=" col-sm-12 col-md-12	col-lg-6	col-xl-6	col-xxl-6">
+               <input 
+                 type="text"
+                 name="name" 
+                 class="form-control"
+                 placeholder="Nombre"
+                  />
+                  <div class="col-12 mb-2">
+                  <span class="text-danger text-small d-block mb-2">
+                    
+                  </span>
+              </div>
+             </div>
+    
+             <div class="col-sm-12 col-md-12	col-lg-6	col-xl-6	col-xxl-6">
+               <input
+                   type="text"
+                   name="surname" 
+                   class="form-control"
+                   placeholder="Apellido"
+                 />
+                 <span class="text-danger text-small d-block mb-2"> 
+                  
+                 </span>
+                 
+             </div>
+             
+    
+             <div class="col-sm-12 col-md-12	col-lg-12	col-xl-12	col-xxl-12">
+               <input 
+                  type="email" 
+                  name="email" 
+                  class="form-control" 
+                  placeholder="Ingrese un E-mail"
+                 
+                 />
+                 <span class="text-danger text-small d-block mb-2">
+                   
+                 </span>
+             </div>
+    
+             <div class="col-sm-12 col-md-12	col-lg-12	col-xl-12	col-xxl-12">
+               <input 
+                 type="tel"
+                 name="tel"
+                 class="form-control"
+                 placeholder="Telefono"
+               
+               />
+               <span class="text-danger text-small d-block mb-2">
+                    
+               </span>  
+             </div>
+    
+             <div class="col-sm-12 col-md-12	col-lg-12	col-xl-12	col-xxl-12 ">
+                 <textarea 
+                     class="form-control"
+                     id="exampleFormControlTextarea1" 
+                     placeholder="Escribe aqui tu consulta.."
+                     rows="6"
+                     name="textarea"></textarea>
+                     
+                   <span class="text-danger text-small d-block mb-2">
+                     
+                   </span>
+             </div>
+    
+             <div >
+                 <button type="submit" class="btn btn-primary">Enviar</button>    
+             </div>
+           </div>
+         </form>
+        </div>
+       </div>
+
+
+
+
+
+
+
+     <!-- footer + script-->
+     <%- include ('partials/footerScript.html')%>
+</body>
+</html>
